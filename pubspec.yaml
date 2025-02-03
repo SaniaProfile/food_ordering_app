@@ -1,0 +1,38 @@
+name: food_ordering_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Cupertino icons for iOS-style icons
+  get: ^4.6.5  # GetX for state management, routing, and dependency injection
+  http:  # For API calls (if you later connect to an actual backend)
+  provider: ^6.0.3  # If you plan to use provider for state management
+  image_picker:
+  video_player: ^2.9.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true  # Enables Material Design icons
+
+  assets:
+    - assets/mock_data/food_items.json  # Path to mock data for food items
+    - assets/mock_data/order_items.json  # Path to mock data for orders
+    - assets/images/  # If you have any images for the app, use this to include them
+
+  # Add custom fonts here (if you need any)
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
