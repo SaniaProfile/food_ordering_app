@@ -1,16 +1,27 @@
-# food_ordering_app
+🍔 Food Ordering App
+A modern and interactive food ordering app built using Flutter and Dart, designed for a seamless and user-friendly experience.
 
-A new Flutter project.
+🚀 Features
+✅ User Authentication – OTP Autofill for secure login
+✅ Search & Filter – Find meals easily with smart search and category filters
+✅ Cart Management – Add, edit, or remove items before checkout
+✅ Order Tracking – Real-time updates on food orders
+✅ Profile Management – Users can update their details
+✅ Dark Mode – Switch between light and dark themes for better accessibility
 
-## Getting Started
+🛠️ Tech Stack
+Flutter (Frontend)
+Dart (Programming Language)
+Firebase (Authentication, Firestore, Storage)
+Android Studio (Development Environment)
 
-This project is a starting point for a Flutter application.
+📸 Demo Video
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔗 Watch the full demo here: https://drive.google.com/file/d/1F6MWjrj6bBr-1yy6MHPHlxbZQuj5-z2T/view
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+📄 License
+This project is MIT Licensed – feel free to use and modify it!
+
